@@ -82,5 +82,9 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-actor_${scala.version.major}</artifactId>
+		</dependency>
     </dependencies>
 </project>
